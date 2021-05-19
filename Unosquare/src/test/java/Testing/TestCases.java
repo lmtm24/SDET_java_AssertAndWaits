@@ -7,8 +7,12 @@ import org.testng.annotations.*;
 public class TestCases {
 	WebElement Services = null;
 	WebElement PracticeAreas = null;
+
+
   @Test
   public void VerifyServicesLinks() {
+
+
 	  /*Create the locator for Services
 	   * Click on Services
 	   * Verify this element is present: AGILE SOFTWARE DEVELOPMENT
